@@ -1,9 +1,12 @@
-import Main from './components/Main/Main';
+import Body from './components/Body/Body';
+import Provider from './redux/reduxProvider';
 
 export default function Home() {
 	return (
-		<main className="flex flex-col">
-			<Main />
-		</main>
+		<Provider>
+			<main className="flex flex-col">
+				<Body />
+			</main>
+		</Provider>
 	);
 }
