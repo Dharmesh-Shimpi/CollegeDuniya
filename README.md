@@ -14,15 +14,6 @@
 - **Sorting & Filtering**: Easily sort and filter the list of colleges based on various criteria.
 - **Detailed College Information**: View detailed information about each college, including courses offered, rankings, and more.
 
-## Getting Started
-
-To get a local copy of this project up and running, follow these steps:
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (version 16.x or higher)
-- [npm](https://www.npmjs.com/) (version 7.x or higher)
-
 ### Installation
 
 1. **Clone the repository**:
