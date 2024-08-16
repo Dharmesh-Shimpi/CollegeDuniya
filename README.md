@@ -61,20 +61,6 @@ You can also view a live demo of the application here: [CollegeDuniya on Vercel]
 - **Backend**: Node.js (for API interactions, if applicable)
 - **Deployment**: [Vercel](https://vercel.com/) - Hosting and deployment platform.
 
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature-name`).
-3. Make your changes and commit them (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/your-feature-name`).
-5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
 ## Contact
 
 **Project Maintainer**: Dharmesh Shimpi
