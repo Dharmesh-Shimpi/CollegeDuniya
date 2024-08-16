@@ -8,7 +8,7 @@ import { setFilters, setPage } from '@/app/redux/college.redux';
 import Filter from '../Navbar/Filter';
 
 export default function Main() {
-	const { data, hasMore, filters, status, error } = useSelector(
+	const { data, hasMore, filters, status, error, page } = useSelector(
 		(state) => state.colleges,
 	);
 
@@ -32,7 +32,6 @@ export default function Main() {
 				/>
 				<div className="flex justify-center items-center">
 					{status === 'loading' && <Loading />}
-					<Loading />
 				</div>
 
 				{data.length > 0 && (
