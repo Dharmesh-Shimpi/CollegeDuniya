@@ -6,7 +6,7 @@
 
 **CollegeDuniya** is a web application that provides a comprehensive list of colleges along with their detailed information. The application allows users to sort and filter the list of colleges based on their needs and supports infinite scrolling for a seamless browsing experience.
 
-![CollegeDuniya Screenshot](https://your-image-url.com/screenshot.png)
+![CollegeDuniya Screenshot](https://github.com/Dharmesh-Shimpi/CollegeDuniya/blob/master/Screenshot%202024-08-16%20130143.png)
 
 ### Features
 
