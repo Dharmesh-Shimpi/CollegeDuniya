@@ -2,8 +2,13 @@
 
 import React from 'react';
 import css from './Navbar.module.css';
+import { setName } from '@/app/redux/college.redux';
 
-function Navbar({ onNameChange }) {
+function Navbar() {
+	const handleNameChange = (name) => {
+		dispatch(setName(name));
+	};
+
 	return (
 		<nav className="fixed flex justify-center w-screen bg-white z-10">
 			<div className="py-3 w-5/6 flex container flex-row justify-between items-center">
@@ -15,7 +20,7 @@ function Navbar({ onNameChange }) {
 					<input
 						type="text"
 						placeholder="Enter college name here"
-						onChange={(e) => onNameChange(e.target.value)}
+						onChange={(e) => handleNameChange(e.target.value)}
 					/>
 				</div>
 			</div>

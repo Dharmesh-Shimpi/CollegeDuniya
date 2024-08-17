@@ -3,16 +3,20 @@
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { useDispatch, useSelector } from 'react-redux';
 import Table from './table';
-import Loading from '../../Loading/loading';
-import { setFilters, setPage } from '@/app/redux/college.redux';
-import Filter from '../Navbar/Filter';
+import Loading from './Loading/loading';
+import { setFilters, setPage, fetchColleges } from '@/app/redux/college.redux';
+import Filter from './Navbar/Filter';
+import { useEffect } from 'react';
 
 export default function Main() {
-	const { data, hasMore, filters, status, error, page } = useSelector(
-		(state) => state.colleges,
-	);
-
+	const { data, hasMore, filters, status, error, page, name, sortOrder } =
+		useSelector((state) => state.colleges);
+	
 	const dispatch = useDispatch();
+
+	useEffect(() => {
+		dispatch(fetchColleges({ page, filters, sortOrder, name }));
+	}, [dispatch, page, filters, sortOrder, name]);
 
 	const loadMoreData = () => {
 		dispatch(setPage(page + 1));
@@ -21,6 +25,7 @@ export default function Main() {
 	const handleFilterChange = (e) => {
 		dispatch(setFilters(e.target.value));
 	};
+
 	return (
 		<div
 			style={{ backgroundColor: '#f3f7fa' }}

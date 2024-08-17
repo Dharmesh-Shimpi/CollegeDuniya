@@ -1,4 +1,4 @@
-import Ranking from '../Ranking/Ranking';
+import Ranking from './Ranking/Ranking';
 
 export default function Table({ data }) {
 	return (

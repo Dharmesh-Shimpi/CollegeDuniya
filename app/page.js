@@ -1,12 +1,14 @@
-import Body from './components/Body/Body';
-import Provider from './redux/reduxProvider';
+import ReduxProvider from './redux/reduxProvider';
+import Main from './Main/Main';
+import Navbar from './Main/Navbar/Navbar';
 
 export default function Home() {
 	return (
-		<Provider>
+		<ReduxProvider>
 			<main className="flex flex-col">
-				<Body />
+				<Navbar />
+				<Main />
 			</main>
-		</Provider>
+		</ReduxProvider>
 	);
 }
