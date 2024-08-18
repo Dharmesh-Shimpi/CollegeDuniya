@@ -11,7 +11,7 @@ import { useEffect } from 'react';
 export default function Main() {
 	const { data, hasMore, filters, status, error, page, name, sortOrder } =
 		useSelector((state) => state.colleges);
-	
+
 	const dispatch = useDispatch();
 
 	useEffect(() => {

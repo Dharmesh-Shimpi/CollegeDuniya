@@ -10,6 +10,9 @@ export const fetchColleges = createAsyncThunk(
 				`/api/college?page=${page}&filters=${
 					filters || ''
 				}&sortOrder=${sortOrder}&name=${name}`,
+				{
+					cache: 'force-cache', // This helps in getting static props for better efficiency for non-changing
+				},
 			);
 			const data = await response.json();
 			return data;
@@ -18,6 +21,7 @@ export const fetchColleges = createAsyncThunk(
 		}
 	},
 );
+
 
 const collegeSlice = createSlice({
 	name: 'colleges',
