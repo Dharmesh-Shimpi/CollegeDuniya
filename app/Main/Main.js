@@ -45,7 +45,7 @@ export default function Main() {
 			style={{ backgroundColor: '#f3f7fa' }}
 			className="flex items-center justify-start flex-col">
 			<div
-				className="m-10 px-10 w-full relative top-16 z-0 bg-white rounded-3xl"
+				className="m-10 px-10 sm:w-full md:w-full lg:w-7/8 xl:w-4/5 relative top-16 z-0 bg-white rounded-3xl"
 				style={{ minHeight: '500px' }} // Reserve space for content to avoid shifts
 			>
 				<Filter

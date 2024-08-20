@@ -40,12 +40,12 @@ export default function Table({ data }) {
 						</td>
 						<td className="border p-2 text-center min-w-28">
 							<div className="font-bold">{`₹ ${item.course_fees.amount}`}</div>
-							<div className="text-xs">{item.course_fees.course}</div>
+							<div className="text-xs p-1">{item.course_fees.course}</div>
 						</td>
 						<td className="border p-2 text-center">
 							<div className="font-bold">{item.placement.average_package}</div>
-							<div className="text-xs">Average Package</div>
-							<div className="font-bold">{item.placement.highest_package}</div>
+							<div className="text-xs pb-2">Average Package</div>
+							<div className="font-bold ">{item.placement.highest_package}</div>
 							<div className="text-xs">Highest Package</div>
 						</td>
 						<td className="border p-2 text-center">
