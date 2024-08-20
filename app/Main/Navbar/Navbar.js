@@ -1,10 +1,12 @@
 'use client';
 
 import React from 'react';
+import { useDispatch } from 'react-redux';
 import css from './Navbar.module.css';
 import { setName } from '@/app/redux/college.redux';
 
 function Navbar() {
+	const dispatch = useDispatch();
 	const handleNameChange = (name) => {
 		dispatch(setName(name));
 	};

@@ -2,8 +2,8 @@ export let data = [
 	{
 		cd_rank: 1,
 		college: {
-			name: 'IIT Delhi - Indian Institute of Technology [IITD]',
-			logo: 'iitd_logo.png',
+			name: 'IIT Delhi - Indian Institute of Technology [IITD] ',
+
 			location: 'New Delhi, Delhi NCR',
 		},
 		course_fees: {
@@ -38,7 +38,7 @@ export let data = [
 		cd_rank: 2,
 		college: {
 			name: 'IIT Bombay - Indian Institute of Technology [IITB]',
-			logo: 'iitb_logo.png',
+
 			location: 'Mumbai, Maharashtra',
 		},
 		course_fees: {
@@ -73,7 +73,7 @@ export let data = [
 		cd_rank: 3,
 		college: {
 			name: 'IIT Kanpur - Indian Institute of Technology [IITK]',
-			logo: 'iitk_logo.png',
+
 			location: 'Kanpur, Uttar Pradesh',
 		},
 		course_fees: {
@@ -108,7 +108,7 @@ export let data = [
 		cd_rank: 4,
 		college: {
 			name: 'IIT Madras - Indian Institute of Technology [IITM]',
-			logo: 'iitm_logo.png',
+
 			location: 'Chennai, Tamil Nadu',
 		},
 		course_fees: {
@@ -142,8 +142,8 @@ export let data = [
 	{
 		cd_rank: 5,
 		college: {
-			name: 'IIT Kharagpur - Indian Institute of Technology [IITKGP]',
-			logo: 'iitkgp_logo.png',
+			name: 'IIT Kharagpur - Indian Institute of Technology [IITK]',
+
 			location: 'Kharagpur, West Bengal',
 		},
 		course_fees: {
@@ -178,7 +178,7 @@ export let data = [
 		cd_rank: 6,
 		college: {
 			name: 'IIT Roorkee - Indian Institute of Technology [IITR]',
-			logo: 'iitr_logo.png',
+
 			location: 'Roorkee, Uttarakhand',
 		},
 		course_fees: {
@@ -213,7 +213,7 @@ export let data = [
 		cd_rank: 7,
 		college: {
 			name: 'IIT Guwahati - Indian Institute of Technology [IITG]',
-			logo: 'iitg_logo.png',
+
 			location: 'Guwahati, Assam',
 		},
 		course_fees: {
@@ -248,7 +248,7 @@ export let data = [
 		cd_rank: 8,
 		college: {
 			name: 'IIT Hyderabad - Indian Institute of Technology [IITH]',
-			logo: 'iith_logo.png',
+
 			location: 'Hyderabad, Telangana',
 		},
 		course_fees: {
@@ -283,7 +283,7 @@ export let data = [
 		cd_rank: 9,
 		college: {
 			name: 'IIT Gandhinagar - Indian Institute of Technology [IITGN]',
-			logo: 'iitgn_logo.png',
+
 			location: 'Gandhinagar, Gujarat',
 		},
 		course_fees: {
@@ -318,7 +318,7 @@ export let data = [
 		cd_rank: 10,
 		college: {
 			name: 'IIT Bhubaneswar - Indian Institute of Technology [IITBBS]',
-			logo: 'iitbbs_logo.png',
+
 			location: 'Bhubaneswar, Odisha',
 		},
 		course_fees: {
@@ -353,7 +353,7 @@ export let data = [
 		cd_rank: 11,
 		college: {
 			name: 'IIT Ropar - Indian Institute of Technology [IITRPR]',
-			logo: 'iitrpr_logo.png',
+
 			location: 'Rupnagar, Punjab',
 		},
 		course_fees: {
@@ -388,7 +388,7 @@ export let data = [
 		cd_rank: 12,
 		college: {
 			name: 'IIT Patna - Indian Institute of Technology [IITP]',
-			logo: 'iitp_logo.png',
+
 			location: 'Patna, Bihar',
 		},
 		course_fees: {
@@ -423,7 +423,7 @@ export let data = [
 		cd_rank: 13,
 		college: {
 			name: 'IIT Mandi - Indian Institute of Technology [IITMandi]',
-			logo: 'iitmandi_logo.png',
+
 			location: 'Mandi, Himachal Pradesh',
 		},
 		course_fees: {
@@ -458,7 +458,7 @@ export let data = [
 		cd_rank: 14,
 		college: {
 			name: 'IIT Jodhpur - Indian Institute of Technology [IITJ]',
-			logo: 'iitj_logo.png',
+
 			location: 'Jodhpur, Rajasthan',
 		},
 		course_fees: {
@@ -493,7 +493,7 @@ export let data = [
 		cd_rank: 15,
 		college: {
 			name: 'IIT Bhilai - Indian Institute of Technology [IITBH]',
-			logo: 'iitbh_logo.png',
+
 			location: 'Bhilai, Chhattisgarh',
 		},
 		course_fees: {
@@ -528,7 +528,7 @@ export let data = [
 		cd_rank: 16,
 		college: {
 			name: 'IIT Goa - Indian Institute of Technology [IITGoa]',
-			logo: 'iitgoa_logo.png',
+
 			location: 'Goa',
 		},
 		course_fees: {
@@ -563,7 +563,7 @@ export let data = [
 		cd_rank: 17,
 		college: {
 			name: 'IIT Palakkad - Indian Institute of Technology [IITPKD]',
-			logo: 'iitpkd_logo.png',
+
 			location: 'Palakkad, Kerala',
 		},
 		course_fees: {
@@ -598,7 +598,7 @@ export let data = [
 		cd_rank: 18,
 		college: {
 			name: 'IIT Tirupati - Indian Institute of Technology [IITT]',
-			logo: 'iitt_logo.png',
+
 			location: 'Tirupati, Andhra Pradesh',
 		},
 		course_fees: {
@@ -633,7 +633,7 @@ export let data = [
 		cd_rank: 19,
 		college: {
 			name: 'IIT Dharwad - Indian Institute of Technology [IITDWD]',
-			logo: 'iitdwd_logo.png',
+
 			location: 'Dharwad, Karnataka',
 		},
 		course_fees: {
@@ -668,7 +668,7 @@ export let data = [
 		cd_rank: 20,
 		college: {
 			name: 'IIT Bhilai - Indian Institute of Technology [IITBH]',
-			logo: 'iitbh_logo.png',
+
 			location: 'Bhilai, Chhattisgarh',
 		},
 		course_fees: {
@@ -703,7 +703,7 @@ export let data = [
 		cd_rank: 21,
 		college: {
 			name: 'IIT Jammu - Indian Institute of Technology [IITJMU]',
-			logo: 'iitjmu_logo.png',
+
 			location: 'Jammu, Jammu and Kashmir',
 		},
 		course_fees: {
@@ -738,7 +738,7 @@ export let data = [
 		cd_rank: 22,
 		college: {
 			name: 'IIT Dhanbad - Indian Institute of Technology [IITISM]',
-			logo: 'iitism_logo.png',
+
 			location: 'Dhanbad, Jharkhand',
 		},
 		course_fees: {
@@ -773,7 +773,7 @@ export let data = [
 		cd_rank: 23,
 		college: {
 			name: 'IIT Bhubaneswar - Indian Institute of Technology [IITBBS]',
-			logo: 'iitbbs_logo.png',
+
 			location: 'Bhubaneswar, Odisha',
 		},
 		course_fees: {
@@ -808,7 +808,7 @@ export let data = [
 		cd_rank: 24,
 		college: {
 			name: 'IIT Madras - Indian Institute of Technology [IITM]',
-			logo: 'iitm_logo.png',
+
 			location: 'Chennai, Tamil Nadu',
 		},
 		course_fees: {
@@ -843,7 +843,7 @@ export let data = [
 		cd_rank: 25,
 		college: {
 			name: 'IIT Delhi - Indian Institute of Technology [IITD]',
-			logo: 'iitd_logo.png',
+
 			location: 'New Delhi, Delhi',
 		},
 		course_fees: {
@@ -878,7 +878,7 @@ export let data = [
 		cd_rank: 35,
 		college: {
 			name: 'IIT Varanasi - Indian Institute of Technology [IITBHU]',
-			logo: 'iitbhu_logo.png',
+
 			location: 'Varanasi, Uttar Pradesh',
 		},
 		course_fees: {
@@ -913,7 +913,7 @@ export let data = [
 		cd_rank: 36,
 		college: {
 			name: 'IIT Bhubaneswar - Indian Institute of Technology [IITBBS]',
-			logo: 'iitbbs_logo.png',
+
 			location: 'Bhubaneswar, Odisha',
 		},
 		course_fees: {
@@ -948,7 +948,7 @@ export let data = [
 		cd_rank: 37,
 		college: {
 			name: 'IIT Roorkee - Indian Institute of Technology [IITR]',
-			logo: 'iitr_logo.png',
+
 			location: 'Roorkee, Uttarakhand',
 		},
 		course_fees: {
@@ -983,7 +983,7 @@ export let data = [
 		cd_rank: 38,
 		college: {
 			name: 'IIT Jabalpur - Indian Institute of Technology [IITJ]',
-			logo: 'iitj_logo.png',
+
 			location: 'Jabalpur, Madhya Pradesh',
 		},
 		course_fees: {
@@ -1018,7 +1018,7 @@ export let data = [
 		cd_rank: 39,
 		college: {
 			name: 'IIT Mandi - Indian Institute of Technology [IITMandi]',
-			logo: 'iitmandi_logo.png',
+
 			location: 'Mandi, Himachal Pradesh',
 		},
 		course_fees: {
@@ -1053,7 +1053,7 @@ export let data = [
 		cd_rank: 40,
 		college: {
 			name: 'IIT Kharagpur - Indian Institute of Technology [IITKGP]',
-			logo: 'iitkgp_logo.png',
+
 			location: 'Kharagpur, West Bengal',
 		},
 		course_fees: {
@@ -1088,7 +1088,7 @@ export let data = [
 		cd_rank: 41,
 		college: {
 			name: 'IIT Guwahati - Indian Institute of Technology [IITG]',
-			logo: 'iitg_logo.png',
+
 			location: 'Guwahati, Assam',
 		},
 		course_fees: {
@@ -1123,7 +1123,7 @@ export let data = [
 		cd_rank: 42,
 		college: {
 			name: 'IIT Jodhpur - Indian Institute of Technology [IITJ]',
-			logo: 'iitj_logo.png',
+
 			location: 'Jodhpur, Rajasthan',
 		},
 		course_fees: {
@@ -1158,7 +1158,7 @@ export let data = [
 		cd_rank: 43,
 		college: {
 			name: 'IIT Patna - Indian Institute of Technology [IITP]',
-			logo: 'iitp_logo.png',
+
 			location: 'Patna, Bihar',
 		},
 		course_fees: {
@@ -1193,7 +1193,7 @@ export let data = [
 		cd_rank: 44,
 		college: {
 			name: 'IIT Ropar - Indian Institute of Technology [IITRPR]',
-			logo: 'iitrpr_logo.png',
+
 			location: 'Ropar, Punjab',
 		},
 		course_fees: {
@@ -1228,7 +1228,7 @@ export let data = [
 		cd_rank: 45,
 		college: {
 			name: 'IIT Dharwad - Indian Institute of Technology [IITDWD]',
-			logo: 'iitdwd_logo.png',
+
 			location: 'Dharwad, Karnataka',
 		},
 		course_fees: {
@@ -1263,7 +1263,7 @@ export let data = [
 		cd_rank: 46,
 		college: {
 			name: 'IIT Jabalpur - Indian Institute of Technology [IITJ]',
-			logo: 'iitj_logo.png',
+
 			location: 'Jabalpur, Madhya Pradesh',
 		},
 		course_fees: {
@@ -1298,7 +1298,7 @@ export let data = [
 		cd_rank: 47,
 		college: {
 			name: 'IIT Gandhinagar - Indian Institute of Technology [IITGN]',
-			logo: 'iitgn_logo.png',
+
 			location: 'Gandhinagar, Gujarat',
 		},
 		course_fees: {
@@ -1333,7 +1333,7 @@ export let data = [
 		cd_rank: 48,
 		college: {
 			name: 'IIT Ropar - Indian Institute of Technology [IITRPR]',
-			logo: 'iitrpr_logo.png',
+
 			location: 'Ropar, Punjab',
 		},
 		course_fees: {
@@ -1368,7 +1368,7 @@ export let data = [
 		cd_rank: 49,
 		college: {
 			name: 'IIT Bhilai - Indian Institute of Technology [IITBHL]',
-			logo: 'iitbhilai_logo.png',
+
 			location: 'Bhilai, Chhattisgarh',
 		},
 		course_fees: {
@@ -1403,7 +1403,7 @@ export let data = [
 		cd_rank: 50,
 		college: {
 			name: 'IIT Palakkad - Indian Institute of Technology [IITPKD]',
-			logo: 'iitpkd_logo.png',
+
 			location: 'Palakkad, Kerala',
 		},
 		course_fees: {

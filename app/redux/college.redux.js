@@ -1,5 +1,3 @@
-
-
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 export const fetchColleges = createAsyncThunk(
@@ -11,7 +9,7 @@ export const fetchColleges = createAsyncThunk(
 					filters || ''
 				}&sortOrder=${sortOrder}&name=${name}`,
 				{
-					cache: 'force-cache', // This helps in getting static props for better efficiency for non-changing
+					cache: 'force-cache', // This helps in getting static props for better efficiency for non-changing data
 				},
 			);
 			const data = await response.json();
